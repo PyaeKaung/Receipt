@@ -171,7 +171,7 @@ root.resizable(False, False)
 root.geometry("1100x600")
 root.configure(bg="white")
 
-background_image_path = "background.jpg"
+background_image_path = "background.png"
 background_image = Image.open(background_image_path)
 background_image = background_image.resize((1100, 600))
 background_photo = ImageTk.PhotoImage(background_image)
